@@ -1,8 +1,8 @@
+# main frameworks
+
 Django>=4.0,<4.1
 wagtail>=3.0,<3.1
-# main frameworks
-Django  # our base web framework
-mezzanine  # CMS framework
+
 
 # database
 dj-database-url  # for common database configuration
@@ -12,10 +12,8 @@ psycopg2  # postgres database driver
 django-modeltranslation  # translation module
 django-rosetta  # translation editor for locales
 
-# Mezzanine plugins
-# mezzanine-api
-# git+http://github.com/Marysia-Software-Limited/mezzanine-surveys.git
-# mezzy
+# Wagtail plugins
+wagtail-localize
 
 # REST API
 djangorestframework
