@@ -189,4 +189,5 @@ WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
     ('en', "English"),
     ('fr', "French"),
     ('pl', "Polish"),
+    ('he', "Hebrew"),
 ]
